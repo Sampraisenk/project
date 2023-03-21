@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="author" content="Samuel praise">
+    <meta name="description" content="This page contain my personal project">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Personal Project</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1 style="color: blue;">
+             This Is My Personal Project</h1>
+             <p>
+             <nav>
+                <ul>
+                    <li>
+                        <a href="#My Survey Form">My Survey Form</a></li>
+                        <li>
+                        <a href="#submit">Submit</a>
+                    </li>
+                    <li>
+                        <a href="#Names Of Individuals That Are Present In Todays Class">Names Of Individuals That Are Present In Todays Class</a>
+                    </li>
+                </ul>
+             </nav>
+            </p>   
+        <p> <strong>My to-do list for day one</strong></p>
+        <p>
+            <ol>
+                <li>Finish my article writing</li>
+                <li>Read my bible</li>
+                <li>Wash my clothes</li>
+                <li>Go to health care centre by 12pm</li>
+            </ol>
+        </p>
+        <hr>
+        <P class="praise">
+            <strong>My to-do list for day two</strong>
+            <ul>
+                <li>Wash and clean the pavements</li>
+                <li>Remove cobwebs from the house</li>
+                <li>Throw away the trash from the dustbin</li>
+                <li>Cook some fresh vegetables</li>
+                <li>Go for bible study in the evening </li>
+            </ul>
+            <hr>
+            <section id="My Survey Form">
+            <h1 style="color: blue;">My Survey Form</h1>
+            <p>
+            Let us know how we can help you.
+            </p>
+            <p>
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset>
+                <legend>Personal Info</legend>
+                <p>
+                <label for="Name">*Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="praise" autocomplete="on"required autofocus>
+                
+            </p>
+            <p>
+            <label for="Email">*Email</label>
+            <input type="text" name="email"id="email" placeholder="Enter your Email" autocomplete="on" required>
+        </p>
+        <p>
+            <label for="age">*Age</label>
+            <input type="number" name="age" id="age" min="18" max="45" step="1" value="18">
+        </p>
+        <p>
+            <label for="option">*Which option best describes your current role? </label>
+            <select name="student" id="current role">
+            <option value="student">Student</option>
+            <option value="entrepreneur">Entrepreneur</option>
+            <option value="worker">Worker</option>
+            <option value="others">Others</option>
+        </select>
+        </p>
+        <p>
+            <label for="recommend free bootcamp">*How likely is it that you would recommend freecodecamp to a friend?</label>
+            <select>
+            <option value="definitely">Definately</option>
+            <option value="maybe">Maybe</option>
+            <option value="not sure">Not sure</option>
+            </select>
+        </p>
+        <p>
+            <legend for="things to improve">*Things that should be improved in the future</legend>
+            <p>
+            <input type="checkbox" name="project" id="front end" value="Front-end">
+            <label for="front end">Front-end Projects</label>
+        </p>
+            <p>
+            <input type="checkbox" name="backend" id="backend" value="backend">
+            <label for="back end Projects">Back-end Projects</label>
+        </p>
+        <input type="checkbox" name="data" id="data" value="data">
+        <label for="data visualization">Data Visualization</label>
+        </p>
+       </fieldset>
+    </section>
+       <br>
+       <section id="Names Of Individuals That Are Present In Todays Class">
+        <style>table, th,td {border: 1px solid black; border-collapse: collapse;}</style>
+        <h2>Names Of Individuals That Are Present In Todays Class</h2>
+       <table>
+        <tr>
+            <th>Person One</th>
+            <th>Person Two</th>
+            <th>Person Three</th>
+        </tr>
+        <tr>
+            <td>Amaka</td>
+            <td>Amanda</td>
+            <td>Amara</td>
+        </tr>
+        <tr>
+        <td>Blessing</td>
+        <td>Bethel</td>
+        <td>Barnabas</td>
+        </tr>
+        <tr>
+            <td>Collins</td>
+            <td>Chidinmma</td>
+            <td>Calista</td>
+        </tr> 
+        <tr>
+            <td>Divine</td>
+            <td>Deborah</td>            
+            <td>David</td>
+        </tr>
+       </table>
+    </section>
+    <br>
+    <h3>My First Javascript</h3>
+    <p>Javascript can change the content of the html element:</p>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="demo">This Is Demonstration.
+    </p>
+        <script>
+        function myFunction() {document.getElementById("demo").innerHTML= "Hello JavaScript!";}
+        </script>
+    
+        <br>
+        <section id="submit">
+        <p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </p>
+        </section>
+<br>
+
+<footer>
+        <p>
+        &nbsp;&nbsp;&nbsp;&lt;&lt;&lt; &copy; <a href="./page/about.html">Samuel praise</a>  &gt;&gt;&gt;&nbsp;&nbsp;&nbsp;
+    </p>
+    <p style="text-align: center;">
+        <a href="#">Back To Top</a>
+    </p>
+</footer>
+</body>
+</html>
